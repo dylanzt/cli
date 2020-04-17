@@ -1,5 +1,5 @@
 ---
-section: cli-commands 
+section: cli-commands
 title: npm-outdated
 description: Check for outdated packages
 ---
@@ -115,6 +115,14 @@ project.
 * Type: Int
 
 Max depth for checking dependency tree.
+
+#### outdated-level
+
+* Default: 'latest'
+* Type: 'latest', 'wanted', 'none'
+
+The minimum level of outdated dependency to exit with a non-zero
+exit code.
 
 ### See Also
 
